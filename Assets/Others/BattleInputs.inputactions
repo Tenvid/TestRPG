@@ -1,0 +1,56 @@
+{
+    "name": "BattleInputs",
+    "maps": [
+        {
+            "name": "MoveArrow",
+            "id": "a9b5cdff-c934-4a60-99e1-370a2d7ea4ac",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1858a5e9-8a8a-44fc-a2f4-41bf8d37c1cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "86bf518e-d74f-4dbc-a079-1ac52f37ea59",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "2b21d4e7-dea2-44ea-9fbc-36ddf667b675",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "9c427bd9-97a1-4ec0-ac71-fe4a17e3f33b",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
